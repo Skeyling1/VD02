@@ -1,0 +1,48 @@
+
+body{
+        background-color: SteelBlue;
+        font-family: Arial;
+    }
+
+h1 {
+    text-align: center;
+    }
+
+img {
+    width: 300px;
+    position: relative;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+p {
+    position: relative;
+    left: 100px;
+    top: 20px
+}
+
+.fio {
+text-align: start;
+}
+
+.main {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 25px;
+        padding-right: 25px;
+}
+
+.user {
+   width: 750px;
+   height: 650px;
+   background-color: DarkOrange;
+   border-radius: 60px;
+   font-size: 120%;
+}
+
+.user:hover {
+   background-color: Orange;
+   border: 3px solid black;
+}
